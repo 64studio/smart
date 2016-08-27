@@ -351,6 +351,13 @@ cdebver_parserelations(PyObject *self, PyObject *version)
         if (*pos) *pos++ = '\0';
 
         parserelation(lastpos, &n, &r, &v);
+
+        /* Fix for packages with multiarch depends, for instance python:any */
+        char *tmp = strrchr(n, ':');
+        if (tmp != NULL) {
+            *tmp = '\0';
+        }
+
         if (!n) {
 
             if (groupsize)
