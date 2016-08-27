@@ -1,0 +1,2 @@
+# smart
+Smart Package Manager
