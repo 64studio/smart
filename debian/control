@@ -2,7 +2,7 @@ Source: smart
 Section: admin
 Priority: optional
 Maintainer: Michael Vogt <mvo@debian.org>
-Uploaders: Free Ekanayaka <freee@debian.org>
+Uploaders: Free Ekanayaka <freee@debian.org>, Chris Obbard <chris@64studio.com>
 Build-Depends: debhelper (>= 5.0.37.2), python-all-dev (>= 2.6.6-3~), cdbs (>= 0.4.90~)
 Standards-Version: 3.8.0
 

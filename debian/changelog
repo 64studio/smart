@@ -1,3 +1,9 @@
+smart (1.4-2.1~pdk) unstable; urgency=low
+
+  * Patch to make smart work with pdk
+
+ -- Chris Obbard <chris@64studio.com>  Sat, 04 Mar 2017 08:31:34 +0000
+
 smart (1.4-2) unstable; urgency=low
 
   * Switch to dh_python2 (Thanks to Barry Warsaw)
